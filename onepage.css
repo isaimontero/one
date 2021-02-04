@@ -1,0 +1,44 @@
+h1{
+    color: red;
+}
+button{
+    background:rgb(136, 62, 62);
+}
+button:hover{
+    background: rgb(163, 27, 27);
+}
+button:active{
+    background: rgb(247, 2, 2);
+}
+.subrayado{
+    text-decoration: none;
+    background: red;
+    display: inline-block;
+    margin: 1% 2%;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.918);
+}
+.subrayado:hover{
+    background: yellowgreen;
+}
+.subrayado:active{
+    background: rgb(250, 135, 5);
+}
+nav{
+    background: rebeccapurple;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+header{
+    display: flex;
+    padding: 2px 1px;
+}
+.header1{
+    display:inline-block;
+    background: white;
+    margin: 10px 10px;
+    padding: 10px 10px;
+
+}
